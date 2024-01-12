@@ -1,3 +1,5 @@
+![Shell.ai Hackathon 2022 - EV Charging Network Challenge](https://media-fastly.hackerearth.com/media/hackathon/shellai-hackathon-2022/images/9996e1d614-hackerearth_banner.jpg)
+
 # Shell.ai Hackathon 2022 - EV Charging Network Challenge
 
 This repository contains the solution for the Shell.ai Hackathon 2022 EV Charging Network Challenge. Our team achieved a score of 72% using an ARIMA model to optimize the placement of EV charging stations to cater to forecasted demand.
