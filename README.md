@@ -13,7 +13,6 @@ The goal of the Shell.ai Hackathon was to find a solution to optimally place EV 
 ## Solution Overview
 
 Our team used an ARIMA (AutoRegressive Integrated Moving Average) model to address the problem. The ARIMA model is a time-series forecasting method that can be applied to predict future EV charging demand based on historical data.
-![TimeSeries](https://i.stack.imgur.com/6rc0x.gif)
 
 ### Data Preparation
 
