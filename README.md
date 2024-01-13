@@ -33,23 +33,23 @@ Our team used an ARIMA (AutoRegressive Integrated Moving Average) model to addre
 
 - Distance Matrix Calculation:
 
-    - Utilizes the scipy.spatial.distance_matrix to calculate the distance matrix between demand points (locations where EV charging is - required) and supply points (potential charging stations).
-    - Considers the geographical coordinates (latitude and longitude) of each location.
+    - We Utilized the scipy.spatial.distance_matrix to calculate the distance matrix between demand points (locations where EV charging is - required) and supply points (potential charging stations).
+    - We Considerd the geographical coordinates (latitude and longitude) of each location.
 
 - Cost Optimization:
 
-    - Optimizes the cost by assigning demand points to the most suitable charging stations based on distance and available charging capacity.
-    - Implements a prioritization strategy for optimal assignment, considering factors such as distance, charging capacity, and existing charging infrastructure.
+    - We Optimized the cost by assigning demand points to the most suitable charging stations based on distance and available charging capacity.
+    - We Implemented a prioritization strategy for optimal assignment, considering factors such as distance, charging capacity, and existing charging infrastructure.
 
 - Charging Station Types:
 
-    - Classifies charging stations into Slow Charging Stations (SCS) and Fast Charging Stations (FCS).
-    - Optimizes the allocation of demand points to these stations to maximize overall efficiency.
+    - We Classified charging stations into Slow Charging Stations (SCS) and Fast Charging Stations (FCS).
+    - We Optimized the allocation of demand points to these stations to maximize overall efficiency.
 
 - File Preparation for Submission:
 
-    - Prepares submission files in CSV format, containing information about the assigned demand points to supply points along with the associated values.
-    - Creates additional files providing details about the optimized number of Slow Charging Stations (SCS) and Fast Charging Stations (FCS) for each location.
+    - We Prepared submission files in CSV format, containing information about the assigned demand points to supply points along with the associated values.
+    - We Created additional files providing details about the optimized number of Slow Charging Stations (SCS) and Fast Charging Stations (FCS) for each location.
 
 ### Results
 
