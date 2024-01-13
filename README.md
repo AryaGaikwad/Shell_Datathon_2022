@@ -29,6 +29,28 @@ Our team used an ARIMA (AutoRegressive Integrated Moving Average) model to addre
 - We considered demand-supply constraints to ensure that each demand point had an adequate number of charging stations.
 - The objective was to optimize the placement of EV charging stations to cater to the forecasted demand while considering the supply constraints.
 
+### Cost Optimization
+
+- Distance Matrix Calculation:
+
+    - Utilizes the scipy.spatial.distance_matrix to calculate the distance matrix between demand points (locations where EV charging is - required) and supply points (potential charging stations).
+    - Considers the geographical coordinates (latitude and longitude) of each location.
+
+- Cost Optimization:
+
+    - Optimizes the cost by assigning demand points to the most suitable charging stations based on distance and available charging capacity.
+    - Implements a prioritization strategy for optimal assignment, considering factors such as distance, charging capacity, and existing charging infrastructure.
+
+- Charging Station Types:
+
+    - Classifies charging stations into Slow Charging Stations (SCS) and Fast Charging Stations (FCS).
+    - Optimizes the allocation of demand points to these stations to maximize overall efficiency.
+
+- File Preparation for Submission:
+
+    - Prepares submission files in CSV format, containing information about the assigned demand points to supply points along with the associated values.
+    - Creates additional files providing details about the optimized number of Slow Charging Stations (SCS) and Fast Charging Stations (FCS) for each location.
+
 ### Results
 
 Our solution achieved a score of 72%, demonstrating the effectiveness of our approach in optimizing the placement of EV charging stations.
